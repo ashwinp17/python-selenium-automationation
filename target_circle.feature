@@ -1,9 +1,5 @@
-Feature: Target Circle page
+Feature: Target Circle - Unlock added value
 
-  Scenario Outline: Verify Unlock added value story cards count
+  Scenario: Target Circle page has 2 storycards under "Unlock added value"
     Given I open the Target Circle page
-    Then I should see "<expected_cards>" story cards under "Unlock added value"
-
-    Examples:
-      | expected_cards |
-      | 2              |
+    Then I see 2 storycards under "Unlock added value"
